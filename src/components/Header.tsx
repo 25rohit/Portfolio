@@ -26,14 +26,14 @@ const Header = () => {
   // Download resume
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/padmanathan resume.pdf"; // place in public/ folder
+    link.href = "/Padmanathan_V.pdf"; // file must be in public/ folder
     link.download = "Padmanathan_V_Resume.pdf";
     link.click();
   };
 
   // View resume in new tab
   const handleViewResume = () => {
-    window.open("/padmanathan resume.pdf", "_blank");
+    window.open("/Padmanathan_V.pdf", "_blank"); // opens in new tab
   };
 
   const scrollToSection = (href: string) => {
